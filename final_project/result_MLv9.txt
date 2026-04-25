@@ -1,0 +1,220 @@
+Train: 9227  |  Test: 3955
+Class distribution: {0: 1462, 1: 3786, 2: 3002, 3: 977}
+Computing dataset normalisation statistics …
+  mean = [0.2717, 0.0409, 0.3644]
+  std  = [0.0121, 0.0458, 0.0331]
+
+============================================================
+  FOLD 1 / 5
+============================================================
+  Train: 7381  |  Val: 1846
+  Class-3 augmented extras: 781  (total training samples: 8162)
+  [Head   1/10]  Train 56.8%  Val 33.7%  Best 33.7%
+  [Head   2/10]  Train 61.8%  Val 48.1%  Best 48.1%
+  [Head   3/10]  Train 64.2%  Val 41.8%  Best 48.1%
+  [Head   4/10]  Train 66.7%  Val 47.6%  Best 48.1%
+  [Head   5/10]  Train 67.0%  Val 42.8%  Best 48.1%
+  [Head   6/10]  Train 68.4%  Val 48.4%  Best 48.4%
+  [Head   7/10]  Train 69.5%  Val 51.2%  Best 51.2%
+  [Head   8/10]  Train 70.1%  Val 50.5%  Best 51.2%
+  [Head   9/10]  Train 71.4%  Val 50.5%  Best 51.2%
+  [Head  10/10]  Train 71.4%  Val 49.5%  Best 51.2%
+  [Full   5/50]  Train 90.3%  Val 85.6%  Best 85.6%
+  [Full  10/50]  Train 95.3%  Val 89.3%  Best 91.2%
+  [Full  15/50]  Train 97.9%  Val 93.2%  Best 93.6%
+  [Full  20/50]  Train 98.8%  Val 95.8%  Best 95.8%
+  [Full  25/50]  Train 99.5%  Val 95.1%  Best 95.9%
+  [Full  30/50]  Train 99.7%  Val 95.7%  Best 96.2%
+  [Full  35/50]  Train 100.0%  Val 96.9%  Best 96.9%  [SWA]
+  [Full  40/50]  Train 99.9%  Val 96.4%  Best 96.9%  [SWA]
+  [Full  45/50]  Train 99.9%  Val 96.6%  Best 96.9%  [SWA]
+  [Full  50/50]  Train 99.9%  Val 95.4%  Best 96.9%  [SWA]
+
+  Best val acc: 96.91%
+
+============================================================
+  FOLD 2 / 5
+============================================================
+  Train: 7381  |  Val: 1846
+  Class-3 augmented extras: 781  (total training samples: 8162)
+  [Head   1/10]  Train 57.0%  Val 42.5%  Best 42.5%
+  [Head   2/10]  Train 62.0%  Val 44.0%  Best 44.0%
+  [Head   3/10]  Train 65.2%  Val 43.3%  Best 44.0%
+  [Head   4/10]  Train 67.4%  Val 41.6%  Best 44.0%
+  [Head   5/10]  Train 68.7%  Val 48.4%  Best 48.4%
+  [Head   6/10]  Train 70.4%  Val 49.6%  Best 49.6%
+  [Head   7/10]  Train 71.1%  Val 48.8%  Best 49.6%
+  [Head   8/10]  Train 71.2%  Val 50.0%  Best 50.0%
+  [Head   9/10]  Train 72.1%  Val 49.9%  Best 50.0%
+  [Head  10/10]  Train 72.7%  Val 52.7%  Best 52.7%
+  [Full   5/50]  Train 90.3%  Val 85.8%  Best 88.8%
+  [Full  10/50]  Train 95.5%  Val 92.8%  Best 93.0%
+  [Full  15/50]  Train 97.9%  Val 95.1%  Best 95.1%
+  [Full  20/50]  Train 98.9%  Val 95.2%  Best 95.5%
+  [Full  25/50]  Train 99.4%  Val 96.0%  Best 96.0%
+  [Full  30/50]  Train 99.5%  Val 96.4%  Best 96.6%
+  [Full  35/50]  Train 99.9%  Val 96.6%  Best 96.6%  [SWA]
+  [Full  40/50]  Train 99.9%  Val 96.6%  Best 97.0%  [SWA]
+  [Full  45/50]  Train 100.0%  Val 96.9%  Best 97.0%  [SWA]
+  [Full  50/50]  Train 99.8%  Val 96.8%  Best 97.0%  [SWA]
+
+  Best val acc: 97.02%
+
+============================================================
+  FOLD 3 / 5
+============================================================
+  Train: 7382  |  Val: 1845
+  Class-3 augmented extras: 782  (total training samples: 8164)
+  [Head   1/10]  Train 57.7%  Val 33.9%  Best 33.9%
+  [Head   2/10]  Train 60.4%  Val 44.3%  Best 44.3%
+  [Head   3/10]  Train 63.1%  Val 43.8%  Best 44.3%
+  [Head   4/10]  Train 66.0%  Val 43.6%  Best 44.3%
+  [Head   5/10]  Train 67.6%  Val 48.7%  Best 48.7%
+  [Head   6/10]  Train 68.1%  Val 47.9%  Best 48.7%
+  [Head   7/10]  Train 68.7%  Val 47.1%  Best 48.7%
+  [Head   8/10]  Train 71.2%  Val 49.8%  Best 49.8%
+  [Head   9/10]  Train 70.4%  Val 50.2%  Best 50.2%
+  [Head  10/10]  Train 70.5%  Val 50.0%  Best 50.2%
+  [Full   5/50]  Train 90.8%  Val 84.8%  Best 89.4%
+  [Full  10/50]  Train 94.1%  Val 89.6%  Best 90.2%
+  [Full  15/50]  Train 97.6%  Val 92.9%  Best 95.0%
+  [Full  20/50]  Train 98.8%  Val 94.5%  Best 95.3%
+  [Full  25/50]  Train 99.5%  Val 96.6%  Best 96.6%
+  [Full  30/50]  Train 99.7%  Val 95.1%  Best 96.6%
+  [Full  35/50]  Train 99.8%  Val 97.1%  Best 97.1%  [SWA]
+  [Full  40/50]  Train 99.9%  Val 97.3%  Best 97.3%  [SWA]
+  [Full  45/50]  Train 99.9%  Val 96.7%  Best 97.3%  [SWA]
+  [Full  50/50]  Train 99.9%  Val 97.1%  Best 97.3%  [SWA]
+
+  Best val acc: 97.29%
+
+============================================================
+  FOLD 4 / 5
+============================================================
+  Train: 7382  |  Val: 1845
+  Class-3 augmented extras: 782  (total training samples: 8164)
+  [Head   1/10]  Train 57.8%  Val 43.3%  Best 43.3%
+  [Head   2/10]  Train 61.4%  Val 45.4%  Best 45.4%
+  [Head   3/10]  Train 64.3%  Val 44.8%  Best 45.4%
+  [Head   4/10]  Train 66.6%  Val 44.5%  Best 45.4%
+  [Head   5/10]  Train 69.4%  Val 50.0%  Best 50.0%
+  [Head   6/10]  Train 71.1%  Val 47.9%  Best 50.0%
+  [Head   7/10]  Train 70.2%  Val 46.5%  Best 50.0%
+  [Head   8/10]  Train 71.0%  Val 49.2%  Best 50.0%
+  [Head   9/10]  Train 71.7%  Val 51.7%  Best 51.7%
+  [Head  10/10]  Train 72.2%  Val 51.5%  Best 51.7%
+  [Full   5/50]  Train 91.4%  Val 89.8%  Best 89.8%
+  [Full  10/50]  Train 95.5%  Val 92.3%  Best 92.3%
+  [Full  15/50]  Train 97.9%  Val 92.1%  Best 94.8%
+  [Full  20/50]  Train 99.0%  Val 94.7%  Best 94.8%
+  [Full  25/50]  Train 99.5%  Val 95.3%  Best 96.2%
+  [Full  30/50]  Train 99.6%  Val 95.6%  Best 96.3%
+  [Full  35/50]  Train 99.9%  Val 96.2%  Best 96.7%  [SWA]
+  [Full  40/50]  Train 99.9%  Val 96.2%  Best 96.8%  [SWA]
+  [Full  45/50]  Train 99.9%  Val 96.5%  Best 97.0%  [SWA]
+  [Full  50/50]  Train 100.0%  Val 96.4%  Best 97.0%  [SWA]
+
+  Best val acc: 96.96%
+
+============================================================
+  FOLD 5 / 5
+============================================================
+  Train: 7382  |  Val: 1845
+  Class-3 augmented extras: 782  (total training samples: 8164)
+  [Head   1/10]  Train 56.7%  Val 36.8%  Best 36.8%
+  [Head   2/10]  Train 60.0%  Val 34.6%  Best 36.8%
+  [Head   3/10]  Train 64.1%  Val 48.5%  Best 48.5%
+  [Head   4/10]  Train 67.0%  Val 44.0%  Best 48.5%
+  [Head   5/10]  Train 67.2%  Val 49.4%  Best 49.4%
+  [Head   6/10]  Train 68.7%  Val 49.9%  Best 49.9%
+  [Head   7/10]  Train 69.6%  Val 51.5%  Best 51.5%
+  [Head   8/10]  Train 70.7%  Val 53.4%  Best 53.4%
+  [Head   9/10]  Train 71.9%  Val 53.9%  Best 53.9%
+  [Head  10/10]  Train 72.7%  Val 54.4%  Best 54.4%
+  [Full   5/50]  Train 90.7%  Val 85.7%  Best 85.7%
+  [Full  10/50]  Train 95.4%  Val 90.7%  Best 90.7%
+  [Full  15/50]  Train 97.9%  Val 93.9%  Best 93.9%
+  [Full  20/50]  Train 98.8%  Val 94.3%  Best 94.8%
+  [Full  25/50]  Train 99.3%  Val 95.5%  Best 95.5%
+  [Full  30/50]  Train 99.7%  Val 95.9%  Best 95.9%
+  [Full  35/50]  Train 99.9%  Val 95.4%  Best 95.9%  [SWA]
+  [Full  40/50]  Train 99.9%  Val 95.8%  Best 96.1%  [SWA]
+  [Full  45/50]  Train 99.9%  Val 95.6%  Best 96.2%  [SWA]
+  [Full  50/50]  Train 99.9%  Val 96.0%  Best 96.2%  [SWA]
+
+  Best val acc: 96.21%
+
+============================================================
+  FOLD SUMMARY
+============================================================
+  Fold 1: 96.91%
+  Fold 2: 97.02%
+  Fold 3: 97.29%
+  Fold 4: 96.96%
+  Fold 5: 96.21%
+  Mean : 96.88%  ±  0.36%
+  Best : 97.29%
+Saved: v9_training.png
+Saved: v9_confusion.png  (OOF accuracy: 96.88%)
+              precision    recall  f1-score   support
+
+    0 person       1.00      1.00      1.00      1462
+    1 person       0.97      0.98      0.98      3786
+   2 persons       0.96      0.96      0.96      3002
+   3 persons       0.93      0.91      0.92       977
+
+    accuracy                           0.97      9227
+   macro avg       0.96      0.96      0.96      9227
+weighted avg       0.97      0.97      0.97      9227
+
+
+Predicting: 5 model(s) × 6 passes …
+  Distribution: {0: 595, 1: 1650, 2: 1307, 3: 403}
+
+Saved: sub_v9_ensemble.csv
+
+Predicting: 1 model(s) × 6 passes …
+  Distribution: {0: 595, 1: 1640, 2: 1340, 3: 380}
+Saved: sub_v9_best.csv  (fold 3, val=97.29%)
+
+Predicting: 5 model(s) × 6 passes …
+  Distribution: {0: 596, 1: 1657, 2: 1299, 3: 403}
+Saved: sub_v9_swa.csv
+
+============================================================
+  V9 COMPLETE
+============================================================
+  OOF mean accuracy : 96.88%
+  Best fold          : 97.29%
+
+  Submit in this order (best first):
+    1. sub_v9_swa.csv        ← SWA ensemble, usually most stable
+    2. sub_v9_ensemble.csv   ← best-checkpoint ensemble
+    3. sub_v9_best.csv       ← single best fold (baseline check)
+
+  V6 reference (Kaggle): ensemble=0.94979, best=0.93711
+============================================================
+Saved: sub_v9_swa.csv
+
+============================================================
+  V9 COMPLETE
+============================================================
+  OOF mean accuracy : 96.88%
+  Best fold          : 97.29%
+
+  Submit in this order (best first):
+    1. sub_v9_swa.csv        ← SWA ensemble, usually most stable
+    2. sub_v9_ensemble.csv   ← best-checkpoint ensemble
+    3. sub_v9_best.csv       ← single best fold (baseline check)
+
+  V6 reference (Kaggle): ensemble=0.94979, best=0.93711
+============================================================
+
+  Submit in this order (best first):
+    1. sub_v9_swa.csv        ← SWA ensemble, usually most stable
+    2. sub_v9_ensemble.csv   ← best-checkpoint ensemble
+    3. sub_v9_best.csv       ← single best fold (baseline check)
+
+  V6 reference (Kaggle): ensemble=0.94979, best=0.93711
+============================================================
+============================================================
